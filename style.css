@@ -1,0 +1,206 @@
+/* Whole website*/
+body {
+    background-color: rgb(35, 53, 47);
+    color: rgb(185, 164, 164);
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(26, 41, 36);
+    border: 2px solid black;
+}
+
+main {
+    max-width: 100rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: rgb(27, 42, 37);
+    padding: 40px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    gap: 5px 25px;
+    font-size: 30px;
+}
+
+header a {
+    color: rgb(185, 164, 164);
+    text-decoration: none;
+}
+header a:hover {
+    color: rgb(218, 200, 200);
+}
+
+/* TEST FILE FOR TESTING HTML / CSS / JS CODE */
+.test_link {
+    color: red;
+}
+
+/* Test codes */
+.test_codes {
+    margin: 10px;
+}
+
+
+/* Find your next book */
+.find_next_book {
+    overflow: hidden;
+    margin: 10px;
+}
+
+.find_next_book h2 {
+    color: rgb(218, 200, 200);
+}
+
+.find_next_book input[type=text] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 42px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    list-style: none;
+    padding: 20px;
+}
+
+.boxes li {
+    border: 4px solid black;
+    width: 10rem;
+    height: 16.174863388rem;
+}
+
+.book_category {
+    color: rgb(218, 200, 200);
+}
+
+.book_section {
+    margin: 10px;
+    padding: 5px;
+    padding-left: 15px;
+    border: 1px solid black;
+}
+
+
+/* 
+.boxes li:hover {
+    width: 11rem;
+    height: 17,7923497268rem;
+    transition: 0.3s;
+}
+ */
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+.zooming_img {
+    max-width: 8rem;
+    max-height: 8rem;
+    transition: 0.5s;
+}
+
+.zooming_img:hover {
+    max-width: 10rem;
+    max-height: 10rem;
+}
+
+.link_book {
+    color: rgb(255, 255, 255);
+}
+
+.booktitle {
+    color: rgb(220, 210, 210);
+}
+
+.container {
+    max-width: 65ch;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+.ringen_text {
+    color: rgb(185, 164, 164);
+    white-space: pre-wrap;
+    line-height: 2.0;
+    font-size: 20px;
+}
+
+.fast_text {
+    color: rgb(185, 164, 164);
+    white-space: pre-wrap;
+    line-height: 2.0;
+    font-size: 20px;
+}
+
+.storst_av_allt_text {
+    color: rgb(185, 164, 164);
+    white-space: pre-wrap;
+    line-height: 2.0;
+    font-size: 20px;
+}
+
+.doden_text {
+    color: rgb(185, 164, 164);
+    white-space: pre-wrap;
+    line-height: 2.0;
+    font-size: 20px;
+}
+
+.tystnaden_text {
+    color: rgb(185, 164, 164);
+    white-space: pre-wrap;
+    line-height: 2.0;
+    font-size: 20px;
+}
+
+.herbert_text {
+    color: rgb(185, 164, 164);
+    white-space: pre-wrap;
+    line-height: 2.0;
+    font-size: 20px;
+}
+
+
+.chapter_links {
+    padding: 20px;
+    margin: 20px;
+    position: fixed;
+    border: 2px solid black;
+    color: rgb(185, 164, 164);
+    background-color: rgb(26, 41, 36);
+}
+
+.chapter_links h2, .chapter_links h3 {
+    color: rgb(200, 190, 190);
+}
+
+.chapter_links a {
+    color: rgb(185, 164, 164);
+}
+
+.chapter_links a:hover {
+    color: rgb(200, 190, 190);
+}
