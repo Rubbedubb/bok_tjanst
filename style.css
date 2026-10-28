@@ -19,7 +19,7 @@ main {
     margin-left: auto;
     margin-right: auto;
     padding: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
 footer {
@@ -81,21 +81,47 @@ header a:hover {
     padding: 20px;
 }
 
-.boxes li {
+.boxes li, .recommended li {
     border: 4px solid black;
     width: 10rem;
     height: 16.174863388rem;
 }
+
+.recommended {
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+}
+
+.recommended div {
+    background-color: rgb(26, 41, 36);
+    padding: 20px;
+    margin-left: 35px;
+    margin-right: 10px;
+}
+
+
 
 .book_category {
     color: rgb(218, 200, 200);
 }
 
 .book_section {
-    margin: 10px;
-    padding: 5px;
+    background-color: rgb(31, 47, 42);
+    margin: 15px;
+    padding: 10px;
     padding-left: 15px;
     border: 1px solid black;
+}
+
+.about_section {
+    background-color: rgb(31, 47, 42);
+    margin: 15px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 10px;
+    padding-left: 15px;
+    border: 2px solid black;
 }
 
 
